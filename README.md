@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+I added client-side PDF generation using html2canvas and jsPDF. The UI is captured as a high-resolution canvas and converted into a downloadable A4 PDF, including support for multi-page layouts.
+
 ## Getting Started
 
 First, run the development server:
