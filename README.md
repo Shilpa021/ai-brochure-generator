@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-I added client-side PDF generation using html2canvas and jsPDF. The UI is captured as a high-resolution canvas and converted into a downloadable A4 PDF, including support for multi-page layouts.
+An AI brochure generator that streams responses in real-time using Groq’s LLM API. Instead of waiting for full responses, it parse SSE streams and progressively render UI. There is also a a branded PDF generation system using jsPDF, avoiding common issues with HTML-based rendering.
 
 ## Getting Started
 
